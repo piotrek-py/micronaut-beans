@@ -1,0 +1,9 @@
+micronaut:
+  http:
+    client:
+      read-timeout: 2500ms
+      connect-timeout: 2500ms
+
+endpoints:
+  all:
+    sensitive: false

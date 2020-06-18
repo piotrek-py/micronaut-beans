@@ -1,0 +1,9 @@
+guild.kotlin.micronaut.beans.$$RefreshableBeanDefinition$InterceptedDefinitionClass
+guild.kotlin.micronaut.beans.$$RequestScopeBeanDefinition$InterceptedDefinitionClass
+guild.kotlin.micronaut.beans.$RequestScopeBeanDefinitionClass
+guild.kotlin.micronaut.beans.$PrototypeBeanDefinitionClass
+guild.kotlin.micronaut.beans.$ThreadLocalBeanDefinitionClass
+guild.kotlin.micronaut.beans.$SingletonBeanDefinitionClass
+guild.kotlin.micronaut.application.$ControllerDefinitionClass
+guild.kotlin.micronaut.beans.$$ThreadLocalBeanDefinition$InterceptedDefinitionClass
+guild.kotlin.micronaut.beans.$RefreshableBeanDefinitionClass
