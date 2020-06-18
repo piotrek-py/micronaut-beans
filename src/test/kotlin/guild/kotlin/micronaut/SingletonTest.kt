@@ -30,7 +30,7 @@ class SingletonTest {
         val results2 = mapper.readValue(client.toBlocking().retrieve(request)!!, object: TypeReference<List<Int>>(){})!!
         assert(results1.distinct().count() == 1)
         assert(results2.distinct().count() == 1)
-        assert(results1 != results2)
+        assert(results1 == results2)
     }
 
     @Test
