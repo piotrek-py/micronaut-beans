@@ -17,25 +17,25 @@ repositories {
 
 configure<DependencyManagementExtension> {
     imports {
-        //mavenBom("io.micronaut:micronaut-bom:2.0.0.RC1")
+        //mavenBom("io.micronaut:micronaut-bom:2.2.1")
     }
 }
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    api("io.micronaut", "micronaut-inject-java", "2.0.0.RC1")
-    api("io.micronaut", "micronaut-management", "2.0.0.RC1") // Health endpoint
+    api("io.micronaut", "micronaut-inject-java", "2.2.1")
+    api("io.micronaut", "micronaut-management", "2.2.1") // Health endpoint
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.3.72")
-    implementation("io.micronaut:micronaut-runtime:2.0.0.RC1")
-    implementation("io.micronaut:micronaut-http-client:2.0.0.RC1")
-    implementation("io.micronaut:micronaut-http-server-netty:2.0.0.RC1")
+    implementation("io.micronaut:micronaut-runtime:2.2.1")
+    implementation("io.micronaut:micronaut-http-client:2.2.1")
+    implementation("io.micronaut:micronaut-http-server-netty:2.2.1")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7")
     implementation("org.apache.logging.log4j", "log4j-core", "2.13.3")
     implementation("org.apache.logging.log4j:log4j-slf4j-impl:2.13.3")
 
-    annotationProcessor("io.micronaut", "micronaut-inject-java", "2.0.0.RC1")
-    kapt("io.micronaut:micronaut-inject-java:2.0.0.RC1")
-    kaptTest("io.micronaut", "micronaut-inject-java", "2.0.0.RC1")
+    annotationProcessor("io.micronaut", "micronaut-inject-java", "2.2.1")
+    kapt("io.micronaut:micronaut-inject-java:2.2.1")
+    kaptTest("io.micronaut", "micronaut-inject-java", "2.2.1")
 
     testImplementation("io.micronaut.test", "micronaut-test-junit5", "1.1.5")
     testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
